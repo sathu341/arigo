@@ -2306,3 +2306,19 @@ section,
 .cardbodyColor{
   background-color: #037d10;
 }
+.subheader{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap:10px;
+  justify-content: right;
+  align-items: center;
+  background-color: #037d10;
+  padding-right: 20px;
+}
+.email{
+  color: white;
+}
+.phone{
+  color: white;
+}
