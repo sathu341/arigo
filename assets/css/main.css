@@ -2268,3 +2268,41 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+.product{
+  background-color: #dff2df;
+}
+.product_img{
+  width:100%;
+  height:450px;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card {
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.img-container {
+  overflow: hidden;
+}
+
+.img-container img {
+  transition: transform 0.4s ease;
+}
+
+.card:hover .img-container img {
+  transform: scale(1.1);
+}
+.cardbodyColor{
+  background-color: #037d10;
+}
