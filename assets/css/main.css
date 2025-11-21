@@ -2351,4 +2351,7 @@ section,
   .subheader{
     display: none;
   }
+  .product_img{
+    height:300px;
+  }
 }
