@@ -2346,3 +2346,9 @@ section,
 .service_box h6{
   color:#78cb81;
 }
+
+@media (max-width: 992px) {
+  .subheader{
+    display: none;
+  }
+}
